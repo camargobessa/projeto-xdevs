@@ -4,14 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto x-devs - Semana do Zero ao Programador</title>
+    <title>Projeto x-devs - Semana do Zero ao Programador Contratado</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/CSS/reset.css">
-
-    <link rel="stylesheet" href="./src/CSS/estilos.css">
-    <link rel="stylesheet" href="./src/CSS/responsivo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,28 +16,33 @@
     </header>
     <main class="personagens-slider">
         <button class="btn-seta btn-voltar" id="btn-voltar">
-            <img src="./src/Imagens/seta.png" alt="seta para voltar a imagem">
+            <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
         </button>
 
         <ul class="lista-personagens">
             <li class="cartao selecionado fundo-1">
                 <h2 class="nome">Seu Clope</h2>
-                <img class="imagem-personagem" src="./src/Imagens/seuclope.png" alt="Seu Clope">
+
+                <img class="imagem-personagem" src="src/imagens/seuclope.png" alt="Seu Clope" />
+
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
-                    <p class="texto">Seu Clope e conhecido por sua firme convicção de que as novas linguagens de
-                        programação são
-                        apenas modismos passageiros e e desnecessários, e ele se recusa a adotar qualquer uma delas,
-                        alegando que nada pode superar a robustez e a eficácia do COBOL para resolver problemas reais.
-                        Seu estilo de trabalho é metódico e preciso, e ele valoriza acima de tudo a estabilidade e a
-                        confiabilidade em seu codigo.</p>
+                    <p class="texto">Seu Clope é conhecido por sua firme convicção de que as novas linguagens de
+                        programação são apenas modismos passageiros e desnecessários, e ele se recusa a adotar qualquer
+                        uma delas, alegando que nada pode superar a robustez e a eficácia do COBOL para resolver
+                        problemas reais. Seu estilo de trabalho é metódico e preciso, e ele valoriza acima de tudo a
+                        estabilidade e a confiabilidade em seu código.</p>
                 </div>
             </li>
-            <!-- <li class="cartao fundo-2">
-                <h2 class="nome">Vamplena</h2>
 
-                <img class="imagem-personagem" src="src/imagens/vamplena.png" alt="Vamplena" />
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Vamplena</h2>
+                </div>
 
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="src/imagens/vamplena.png" alt="Vamplena" />
+                </div>
 
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
@@ -49,14 +50,17 @@
                         seu poder, pois teme tornar-se dependente da expertise alheia em vez de desenvolver a sua
                         própria. Sua jornada é marcada por um intenso desejo de autodesenvolvimento e pela busca de um
                         equilíbrio entre aprender com os outros e cultivar seu próprio talento genuíno.</p>
+                </div>
+            </li>
+
             <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Jubiléia</h2>
+                </div>
 
-                <h2 class="nome">Jubiléia</h2>
-
-
-
-                <img class="imagem-personagem" src="./src/Imagens/jubileia.png" alt="Jubiléia" />
-
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="src/imagens/jubileia.png" alt="Jubiléia" />
+                </div>
 
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
@@ -64,14 +68,16 @@
                         peculiaridade: uma aversão declarada a temas claros em ambientes de programação. Ela tem uma
                         preferência intensa por temas escuros, que considera mais suaves e agradáveis para seus olhos,
                         especialmente durante longas sessões de codificação à noite.</p>
+                </div>
+            </li>
             <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Tempestade Solar</h2>
+                </div>
 
-                <h2 class="nome">Tempestade Solar</h2>
-
-
-
-                <img class="imagem-personagem" src="./src/Imagens/tempestade-solar.png" alt="Tempestade Solar" />
-
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="src/imagens/tempestade-solar.png" alt="Tempestade Solar" />
+                </div>
 
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
@@ -80,14 +86,16 @@
                         comunicação, afetando a internet e todos os dispositivos conectados. Esses surtos solares causam
                         caos no mundo digital, desestabilizando servidores, interrompendo conexões e causando perda de
                         dados críticos.</p>
+                </div>
+            </li>
             <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Loggineto</h2>
+                </div>
 
-                <h2 class="nome">Loggineto</h2>
-
-
-
-                <img class="imagem-personagem" src="./src/Imagens/loggineto.png" alt="Loggineto" />
-
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="src/imagens/loggineto.png" alt="Loggineto" />
+                </div>
 
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
@@ -95,36 +103,32 @@
                         com a força de sua vontade, permitindo-lhe acessar e alterar informações de qualquer dispositivo
                         conectado à rede. Seu domínio sobre a segurança digital o torna um adversário formidável para
                         qualquer equipe de TI, pois ele pode causar falhas, acessar dados confidenciais e criar
-                        barreiras de segurança quase impenetráveis.
-                    </p>
-
+                        barreiras de segurança quase impenetráveis.</p>
                 </div>
             </li>
             <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Professor Cafeze</h2>
+                </div>
 
-                <h2 class="nome">Professor Cafeze</h2>
-
-
-
-                <img class="imagem-personagem" src="./src/Imagens/professor-cafeze.png" alt="Professor Cafeze" />
-
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="./src/imagens/professor-cafeze.png" alt="Professor Cafeze" />
+                </div>
 
                 <div class="descricao">
                     <h3 class="titulo">Descrição</h3>
                     <p class="texto">Líder dos X-devs é um mentor para desenvolvedores iniciantes, guiando-os com sua
                         mente excepcional e uma xícara de café sempre à mão. Ele possui habilidades telepáticas que lhe
                         permitem transmitir conhecimento de programação diretamente para a mente dos novatos, acelerando
-                        sua aprendizagem.
-                    </p>
+                        sua aprendizagem.</p>
                 </div>
-            </li> -->
+            </li>
         </ul>
-        <button class="btn-seta btn-avancar" id="btn-avancar">
-            <img src="./src/Imagens/seta.png" alt="seta para voltar a imagem">
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
         </button>
     </main>
-
-    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
